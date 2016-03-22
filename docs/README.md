@@ -78,6 +78,7 @@ The current docs.projectatomic.io team is:
 * Jonathan Lebon
 * Tuomas Kuosmanen
 * Brian Exelbierd
+* Joe Brockmeier
 
 If you want to help us build out the docs site, please contact a member of the
 team to join in.
