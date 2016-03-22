@@ -24,7 +24,8 @@ Docs will be automatically built and pushed to the public website based on
 custom code to be developed.  This custom code is liable to involve some or
 all of the following:
 
-* Ruby Middleman
+* Middleman
+* Docker
 * Jenkins
 * Travis
 * Github
@@ -39,11 +40,13 @@ Using ReadTheDocs.org was considered, but did not meet our needs.
 
 ## Accepted Formats
 
-docs.projectatomic.io will accept documentation in 3 formats:
+docs.projectatomic.io will accept documentation in 2 formats:
 
 * MarkDown
-* ReStructured Text
 * ASCIIDoc
+
+It is possible that we will also accept RestructuredText as well; that depends
+partly on whether Middleman is required for the automation.
 
 Additionally, all docs need to be under a single master directory (possibly with
 one or more subdirectories) in your repository, one which contains only
@@ -69,15 +72,24 @@ moved over to docs.projectatomic.io.  In order to avoid breaking links and losin
 search rank, hand-produced .htaccess redirects will be added to redirect from
 old pages to new ones.
 
+## Licensing
+
+Documentation which is under a separate license needs to be under [one of the
+"good" documentation
+licenses](https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Documentation_Licenses)
+as accepted by the Fedora project.  Documentation can also be under the upstream
+project's main license.
+
 ## Team
 
 The current docs.projectatomic.io team is:
 
-* Josh Berkus
-* Michael Scherer
-* Jonathan Lebon
-* Tuomas Kuosmanen
-* Brian Exelbierd
+* [Josh Berkus](https://github.com/orgs/projectatomic/people/jberkus)
+* [Michael Scherer](https://github.com/orgs/projectatomic/people/mscherer)
+* [Jonathan Lebon](https://github.com/orgs/projectatomic/people/jlebon)
+* [Tuomas Kuosmanen](https://github.com/orgs/projectatomic/people/tigert)
+* [Brian Exelbierd](https://github.com/orgs/projectatomic/people/bexelbie)
+* [Joe Brockmeier](https://github.com/orgs/projectatomic/people/jzb)
 
 If you want to help us build out the docs site, please contact a member of the
 team to join in.
