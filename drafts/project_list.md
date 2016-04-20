@@ -15,7 +15,7 @@ Nulecule
 * Location: Hosted
 
 Atomic Registry
-* Icon: needed
+* Icon: http://www.projectatomic.io/images/registry-image.png
 * Description: An enterprise Docker container registry solution run on-premise or in the cloud.
 * Location: Hosted
 
