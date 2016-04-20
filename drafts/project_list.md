@@ -48,3 +48,8 @@ docs.projectatomic.io
 * Icon: Needed
 * Description: a container-based documentation builder for federated open source projects.
 * Location: Hosted
+
+bubblewrap
+* Icon: Needed
+* Description: Run containers in a user namespace for better security.
+* Location: Hosted
