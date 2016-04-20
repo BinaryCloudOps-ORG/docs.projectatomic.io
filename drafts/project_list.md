@@ -53,3 +53,8 @@ bubblewrap
 * Icon: Needed
 * Description: Run containers in a user namespace for better security.
 * Location: Hosted
+
+rpm-ostree
+* Icon: Needed
+* Description: Image-based upgrade from RPM packages for the operating system.
+* Location: Hosted
